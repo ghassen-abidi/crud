@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  justify-content: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputs input {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+  background: linear-gradient(
+    111.69deg,
+    rgba(255, 255, 255, 0.4) 12.7%,
+    rgba(255, 255, 255, 0.1) 108.34%
+  );
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+
+  border-radius: 11px;
+}
+.inputs button {
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: #13a90b;
+  color: white;
+  border-radius: 8px;
+}
+.inputs button:hover {
+  background-color: #0f9e0a;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  margin: 15px auto;
+}
+thead {
+  background-color: #13a90b;
+  color: white;
+  border-radius: 8px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.modal-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 550px;
+  z-index: 3;
+  background: #000000;
+  border-radius: 13px;
+}
+
+ .x-close {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+ 
+}
+p{
+  color: white;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+}
