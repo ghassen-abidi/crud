@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university >
+    <student>
+        <cours>cour</cours>
+        <name>John</name>
+        <matrN>matrN</matrN>
+    </student>
+    <email>Email</email>
+    <assistant>
+        <employeeN>employee</employeeN>
+        <Name>Name</Name>
+        </assistant>
+</university>
